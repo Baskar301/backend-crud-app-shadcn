@@ -1,9 +1,10 @@
 services:
   - type: web
     name: crud-backend
-    env: java
+    env: docker
     buildCommand: ./mvnw clean package
     startCommand: java -jar target/*.jar
     branch: main
-    region: oregon
+    region: singapore
     plan: free
+
