@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.CRUDwithshadcn.Models.Users;
 import com.example.CRUDwithshadcn.Service.UsersServiceInterface;
 
-@CrossOrigin(origins="http://localhost:5173/")
+@CrossOrigin(origins="*")
 @RestController
 @RequestMapping("api/users")
 public class UsersController {
