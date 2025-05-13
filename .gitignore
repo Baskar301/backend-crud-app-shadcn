@@ -2,7 +2,7 @@
 /target/
 
 # Ignore Maven wrapper files
-/.mvn/
+#/.mvn/
 
 # Ignore IntelliJ IDEA project files
 .idea/
